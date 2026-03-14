@@ -328,7 +328,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Foto del residuo ← AHORA DENTRO DEL SCROLLVIEW -->
+            <!-- Foto del residuo ← AGREGADO -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

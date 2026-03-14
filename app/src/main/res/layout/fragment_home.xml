@@ -203,6 +203,45 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
+        </LinearLayout>
+
+        <!-- ══ ACCIONES RÁPIDAS ══ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="12dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_nuevo_registro"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="+ Nuevo Registro"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="#2E7D32"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/ic_add"
+                app:iconTint="#FFFFFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_ver_historial"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:text="Historial"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="#1565C0"
+                app:cornerRadius="12dp"
+                app:icon="@drawable/ic_historial"
+                app:iconTint="#FFFFFF" />
+
         </LinearLayout>
 
         <!-- ══ GRÁFICO PIE — Distribución por categoría ══ -->
@@ -215,6 +254,7 @@
             app:cardCornerRadius="14dp"
             app:cardElevation="4dp"
             app:cardBackgroundColor="#FFFFFF">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -469,43 +509,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- ══ ACCIONES RÁPIDAS ══ -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:paddingBottom="12dp">
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_nuevo_registro"
-                android:layout_width="0dp"
-                android:layout_height="52dp"
-                android:layout_weight="1"
-                android:layout_marginEnd="8dp"
-                android:text="+ Nuevo Registro"
-                android:textSize="13sp"
-                android:textStyle="bold"
-                app:backgroundTint="#2E7D32"
-                app:cornerRadius="12dp"
-                app:icon="@drawable/ic_add"
-                app:iconTint="#FFFFFF" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_ver_historial"
-                android:layout_width="0dp"
-                android:layout_height="52dp"
-                android:layout_weight="1"
-                android:text="Historial"
-                android:textSize="13sp"
-                android:textStyle="bold"
-                app:backgroundTint="#1565C0"
-                app:cornerRadius="12dp"
-                app:icon="@drawable/ic_historial"
-                app:iconTint="#FFFFFF" />
-
-        </LinearLayout>
 
         <!-- ══ ÚLTIMOS REGISTROS DEL DÍA ══ -->
         <androidx.cardview.widget.CardView
