@@ -146,6 +146,19 @@
                     app:backgroundTint="#2E7D32"
                     app:cornerRadius="12dp" />
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_huella"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ingresar con huella"
+                    android:textColor="#2E7D32"
+                    app:strokeColor="#2E7D32"
+                    app:cornerRadius="12dp"
+                    app:icon="@drawable/ic_fingerprint"
+                    app:iconTint="#2E7D32" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -165,6 +178,7 @@
             android:text="© 2025 ECOLIM S.A.C."
             android:textSize="10sp"
             android:textColor="#9E9E9E" />
+
 
     </LinearLayout>
 </ScrollView>
