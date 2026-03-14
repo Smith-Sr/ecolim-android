@@ -8,7 +8,8 @@ ACTUALIZACIÓN:
 ➕ Acción de ingresar con huella digital Integrado.
  - Importante:
    Primero Logearte con correo y contraseña
-   Marcar "Recordar Sesión"
+   
+   - Marcar "Recordar Sesión"
    
 🔁 Acciones rapidas del menú de inicio reubicados en la parte superior
  - (Nuevo registro - Historial)
